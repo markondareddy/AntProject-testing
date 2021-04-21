@@ -3,7 +3,8 @@
 
 	<!-- Test coverage properties -->
 	<!-- <property name="cobertura.dir" value="C:\Tools\cobertura-2.1.1" /> -->
-	<property name="cobertura.dir" value="C:\Tools\cobertura-2.1.1" />
+	<!--<property name="cobertura.dir" value="C:\Tools\cobertura-2.1.1" /> --> <!-- this is for windows-->
+	<property name="cobertura.dir" value="/home/ubuntu/cobertura-2.1.1.jar /> <!-- this is for linux-->
 	<property name="cobertura.maxmemory" value="512m" />
 	<property name="test.coverage" value="true" />
 	<property name="instrumented.dir" value="instrumented" />
